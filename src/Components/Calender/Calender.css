@@ -1,0 +1,23 @@
+.calenDiv{justify-content:center;
+    display:flex;margin-top:100px;
+margin-top: 50px;
+}
+
+.calenHead{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.calen{
+    width: 80%;
+    margin: auto;
+}
+
+
+@media(max-width:1200px){
+    .calenHead{
+        font-size: 55px;
+    }
+  
+}
+

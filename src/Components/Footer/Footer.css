@@ -1,0 +1,57 @@
+.footmaindiv{
+    background-color:black;color:white;display:flex;
+    justify-content:space-between;margin:auto;padding:80px;
+}
+.footmaindiv div h2{
+    font-size:75px;
+    font-Weight:700;line-height:1;margin-Left:100px;
+}
+
+.footmaindiv div h2 span{
+    font-size:100px;color:#4070F4;
+}
+
+.footinndiv{
+    margin:auto;display:flex;gap:50px;flex-direction: column;
+}
+.footinndiv div p{
+    font-size:25px;font-Weight:500;
+}
+
+.footicons{
+    font-size: 30px;
+}
+.footicons+span{
+    font-size: 25px;font-Weight:500;
+}
+.footinfootdiv{
+    display: flex; gap: 15px;align-items: center;
+}
+.footondiv{
+    display: flex;gap: 100px;
+}
+
+@media(max-width:1115px){
+    .footmaindiv{
+        flex-direction: column;
+        gap: 50px
+    }}
+
+    @media(max-width:640px){
+     .footondiv{
+        flex-direction: column;
+        gap: 30px;
+     }
+     .footmaindiv div h2{
+        text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+     }
+     .footmaindiv div h2 span{
+        color: black;
+     }
+     .footmaindiv{
+        padding: 30px;
+     }
+    }

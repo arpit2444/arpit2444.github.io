@@ -1,0 +1,67 @@
+.statsMaindiv{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    gap: 10px;
+    padding: 30px;
+    margin-top: 50px;
+justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.statsMaindiv div{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.statsMaindiv :nth-child(1){
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.statHead{
+    font-size: 85px;
+    font-weight: 700;
+  
+}
+
+@media(max-width:1510px){
+    .statsMaindiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 100px;
+        width: 50%;
+    }
+.statHead{
+    font-size: 55px;
+}
+}
+@media(max-width:1150px){
+.statsMaindiv{
+    width: 80%;
+}
+.statimg3{
+    width:90%
+}
+.statimg1{
+    width:90%
+}
+.statimg2{
+    width:90%
+}
+}
+
+@media(max-width:670px){
+
+    .statimg3{
+        width:90%
+    }
+    .statimg1{
+        width:90%
+    }
+    .statimg2{
+        width:90%
+    }
+}
