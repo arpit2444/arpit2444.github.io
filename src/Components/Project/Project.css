@@ -32,7 +32,8 @@ justify-content: space-around */
 
 }
 .prodescbtnbox1{
-    margin-left: -130px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .prodescbtnbox2{
     margin-left: -315px;
@@ -112,6 +113,10 @@ justify-content: space-around */
         margin-left: -50px;
        
     }
+    .prodescbtnbox1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
     .prodescbtnbox2{
         margin-left: -115px;
     }
@@ -138,7 +143,7 @@ justify-content: space-around */
     .projDescription{
         width: 40%;
     }
- 
+
     .secpro{
         width: 360px;
     }
@@ -181,6 +186,10 @@ justify-content: space-around */
     .prodescbtnbox1{
         margin-left: -20px;
        
+    }
+    .prodescbtnbox1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 @media(max-width:700px){

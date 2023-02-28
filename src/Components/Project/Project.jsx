@@ -9,6 +9,37 @@ export default function Project() {
     <div id='project' style={{width:"80%",margin:"auto",marginTop:"100px"}}>
         <h1 className='skills'>Project</h1>
         <div className='projectContainer'>
+
+
+
+        <div  className='projectCard'>
+              <a   target="_blank" href="https://friendly-sorbet-912886.netlify.app/">
+            <div className='secpro'>
+            <img className='projimg' src="myntra.png" alt="" /></div></a>
+
+            <div className='projDescription'> <h1>Myntra Clone</h1>
+            <h3>Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products.</h3>
+<h2>Tech Stack:</h2><div className='prodescbtnbox1'>
+<button  className='projdebtn'>MongoDB</button>
+<button  className='projdebtn'>Express js</button>
+<button  className='projdebtn'>Node js</button>
+<button className='projdebtn'>REACT</button>
+<button  className='projdebtn'>Redux</button>
+<button className='projdebtn'>JAVASCRIPT</button>
+<button  className='projdebtn'>HTML</button>
+<button className='projdebtn'>CSS</button>
+</div>
+            
+            <div className='skillbtnbox'>
+          <a  target="_blank"   href="https://github.com/imukeshkaushal/Myntra-Clone"> <button className='skillbtn'>Github <GoMarkGithub/></button></a> 
+          <a  target="_blank"  style={{marginTop:"20px"}} href="https://friendly-sorbet-912886.netlify.app/">  <button className='skillbtn'>Website <CgWebsite/></button></a>
+            </div>
+            </div></div>
+
+
+
+
+
            
         <div  className='projectCard'>
               <a   target="_blank" href="https://dapper-syrniki-45e656.netlify.app">
@@ -49,7 +80,7 @@ most prestigious designers.</h3>
 <button className='projdebtn'>CSS</button>
 <button className='projdebtn'>JAVASCRIPT</button>
 <button className='projdebtn'>REACT</button>
-<button className='projdebtn'>CRUD OPERATION</button>
+<button className='projdebtn'>CHAKRA UI</button>
 </div>
             
             <div className='skillbtnbox'>
@@ -73,7 +104,7 @@ most prestigious designers.</h3>
             <div className='projDescription'> <h1>
 Apple TV Clone</h1>
             <h3>It is a streaming service from Apple. It features exclusive Apple Original shows and movies .</h3>
-<h2>Tech Stack:</h2><div className='prodescbtnbox2'>
+<h2>Tech Stack:</h2><div className='prodescbtnbox1'>
 <button  className='projdebtn'>HTML</button>
 <button className='projdebtn'>CSS</button>
 <button className='projdebtn'>JAVASCRIPT</button>

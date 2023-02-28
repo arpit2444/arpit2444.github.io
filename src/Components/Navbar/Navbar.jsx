@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const goTo=()=>{
-    window.open("https://drive.google.com/file/d/1TWJsA_4rVVreZioBeK3YR7yI2-0m_8uu/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/175iqD4mmGV2DiVUqTVRH-bUDvc7oSuRE/view?usp=sharing")
    
   }
   return (
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li>
             <a href="#contact">contact</a> 
             </li>
-            <li><a href="Arpit_Jain_Resume.pdf" download>
+            <li><a href="fw21_0420-Arpit-Jain-Resume.pdf" download>
               <button onClick={goTo} style={{border:"none", paddingLeft:"20px",paddingRight:"20px",paddingTop:"8px",paddingBottom:"10px",fontSize:"20px",fontWeight:"bold",borderRadius:"8px"}}  >Resume <TfiDownload /></button>
               </a></li>
           </ul>
